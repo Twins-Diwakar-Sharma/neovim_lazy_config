@@ -18,16 +18,10 @@ return {
                 enable = true,
             },
             ensure_installed = {
-                "json",
-                "javascript",
                 "lua",
-                "vim",
-                "dockerfile",
-                "gitignore",
                 "c",
                 "cpp",
                 "glsl",
-                "rust",
             },
             incremental_selection = {
                 enable = true,
@@ -48,6 +42,16 @@ return {
                 enable = true,
                 enable_autocmd = false,
             },
+        })
+
+        vim.filetype.add({
+          extension = {
+            vs = 'glsl',
+            fs = 'glsl',
+            gs = 'glsl',
+            tesc = 'glsl',
+            tese = 'glsl',
+          },
         })
     end,
 }

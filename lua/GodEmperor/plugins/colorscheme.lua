@@ -1,20 +1,20 @@
 return {
-  "folke/tokyonight.nvim",
-  lazy = false,
-  priority = 1000,
-  opts = {},
-  config = function()
-    vim.cmd[[colorscheme tokyonight-night]]
-  end,
 }
 
 --[[
 return {
-    "tiagovla/tokyodark.nvim",
-    lazy = false,
-    priority = 1000,
-    config = function()
-        vim.cmd("colorscheme tokyodark")
-    end,
+  "bluz71/vim-nightfly-colors", 
+  name = "nightfly", 
+  lazy = false, 
+  priority = 1000,
+  config = function()
+
+    require("nightfly").custom_colors({
+      bg = "#020202",
+      --violet = "#ff74b8",
+    })
+    vim.cmd("colorscheme nightfly")
+
+  end,
 }
 ]]
