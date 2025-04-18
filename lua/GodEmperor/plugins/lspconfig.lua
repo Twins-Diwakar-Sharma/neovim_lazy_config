@@ -8,9 +8,12 @@ return {
 
       local lspconfig = require('lspconfig')
       local lsp_capabilities = require('cmp_nvim_lsp').default_capabilities()
-
+      
+      -- ccls
       lspconfig.ccls.setup({
         capabilities = lsp_capabilities,
       })
+      vim.keymap.set('n', '<Leader>hs', ':CclsSwitchSourceHeader<CR>')
+
   end,
 }
