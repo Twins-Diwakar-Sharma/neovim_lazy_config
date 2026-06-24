@@ -1,0 +1,48 @@
+{
+  "plugins": {
+    "citruszest.nvim": {
+      "rev": "e6fed9ec3d0ac190b1387379c138ba5e23a1f4f9",
+      "src": "https://github.com/zootedb0t/citruszest.nvim.git"
+    },
+    "lualine.nvim": {
+      "rev": "221ce6b2d999187044529f49da6554a92f740a96",
+      "src": "https://github.com/nvim-lualine/lualine.nvim.git"
+    },
+    "midnight.nvim": {
+      "rev": "fe062a6f2e5bd77cd8a260f61e6e12789eaf4f13",
+      "src": "https://github.com/dasupradyumna/midnight.nvim.git"
+    },
+    "mini.completion": {
+      "rev": "0aeee1231b90d70563e24facc238ab4359b8d5fc",
+      "src": "https://github.com/nvim-mini/mini.completion"
+    },
+    "mini.files": {
+      "rev": "8bfdad2e32dc2fe9451acca9caafcf8564658669",
+      "src": "https://github.com/nvim-mini/mini.files.git"
+    },
+    "mini.icons": {
+      "rev": "e56797f90192d81f1fda02e662fc3e8e3d775027",
+      "src": "https://github.com/nvim-mini/mini.icons"
+    },
+    "nordic.nvim": {
+      "rev": "9fb62116b891184049c50ca6ffb0d3bc100a1a6e",
+      "src": "https://github.com/AlexvZyl/nordic.nvim.git"
+    },
+    "nvim-lspconfig": {
+      "rev": "bfcc0171a43f22afa61d927ffe9fcb6cb85dc99e",
+      "src": "https://github.com/neovim/nvim-lspconfig"
+    },
+    "nvim-treesitter": {
+      "rev": "4916d6592ede8c07973490d9322f187e07dfefac",
+      "src": "https://github.com/nvim-treesitter/nvim-treesitter"
+    },
+    "plenary.nvim": {
+      "rev": "74b06c6c75e4eeb3108ec01852001636d85a932b",
+      "src": "https://github.com/nvim-lua/plenary.nvim"
+    },
+    "telescope.nvim": {
+      "rev": "427b576c16792edad01a92b89721d923c19ad60f",
+      "src": "https://github.com/nvim-telescope/telescope.nvim.git"
+    }
+  }
+}
