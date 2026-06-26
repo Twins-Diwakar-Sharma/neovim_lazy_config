@@ -6,3 +6,21 @@ vim.api.nvim_create_autocmd('PackChanged', { callback = function(ev)
   end
 end })
 vim.pack.add({ 'https://github.com/nvim-treesitter/nvim-treesitter' })
+
+-- install tree-sitter-cli with cargo, then add ~/.cargo/bin to PATH in bashrc
+
+require('nvim-treesitter').setup()
+
+languages = {
+  'c',
+  'rust',
+  'cpp',
+}
+
+require('nvim-treesitter').install(languages)
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = languages,
+  callback = function()
+    vim.treesitter.start()
+  end,
+})

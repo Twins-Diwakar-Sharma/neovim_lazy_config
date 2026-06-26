@@ -4,6 +4,6 @@ require('mini.files').setup()
 
 vim.keymap.set("n", "<leader>e", 
   function()
-    MiniFiles.open()
+    if not MiniFiles.close() then MiniFiles.open() end
   end
 )
